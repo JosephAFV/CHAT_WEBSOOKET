@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.contenedor {
+    width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.mensajes {
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 15px;
+    background-color: #fafafa;
+}
+
+.mensaje {
+    background-color: #e5e7eb;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+}
+
+.formulario {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* Estilos para el formulario de envío de mensajes */
+#usuarios {
+    text-align: center;
+    font-weight: bold;
+    color: #2563eb;
+}
+
+.notificacion {
+    background-color: #dbeafe;
+    color: #1e40af;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#escribiendo {
+    height: 20px;
+    color: #6b7280;
+    font-style: italic;
+    font-size: 14px;
+}
